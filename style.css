@@ -1,0 +1,24 @@
+* {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.top {
+    background-color: #1F2937;
+
+}
+
+button {
+    color: #3882F6;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
