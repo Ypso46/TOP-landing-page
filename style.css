@@ -1,5 +1,30 @@
 * {
-    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.top {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    align-items: flex;
     color: #E5E7EB;
 }
 
@@ -9,16 +34,28 @@
     color: #F9FAF8;
 }
 
-.top {
-    background-color: #1F2937;
-
+.inferior-part {
+    display: flex;
 }
 
 button {
     color: #3882F6;
+    width: 100px;
 }
 
-.header-logo {
-    font-size: 24px;
-    color: #F9FAF8;
+img {
+    width: 200px;
+    height: 200px;;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+p {
+    color: white;
 }
