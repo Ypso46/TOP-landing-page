@@ -23,7 +23,6 @@
 
 .header-links {
     display: flex;
-    align-items: flex;
 }
 
 .main-title {
@@ -59,8 +58,45 @@
     flex-direction: column;
 }
 
-.image p {
+.images p {
+    display: flex;
     color: #3882F6;
+}
+
+.quote {
+    display:flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    margin-top: 50px;
+}
+
+quote {
+    font-size: 26px;
+    font-style: italic;
+    text-align: center;
+    color: #1F2937;
+    width: 950px;
+    margin-top: 40px;
+}
+
+.quote  h3 {
+    font-size: 32px;
+    margin: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom {
+    display: flex;
+    width: 600px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 60px;
+    padding: 60px;
 }
 
 
