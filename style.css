@@ -55,8 +55,12 @@
 
 .images {
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
+}
+
+.image p {
+    color: #3882F6;
 }
 
 
